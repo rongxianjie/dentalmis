@@ -26,12 +26,6 @@ public class HelloController {
 		return "login";
 	}
 	
-	@RequestMapping("login.do")
-	public String Login(String userName)
-	{
-		return "login";
-	}
-	
 	/*时间属性的编辑器*/
 	@InitBinder
 	public void initBinder(ServletRequestDataBinder binder)
